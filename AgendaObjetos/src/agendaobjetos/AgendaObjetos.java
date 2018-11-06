@@ -36,6 +36,8 @@ public class AgendaObjetos {
      */
     public static void main(String[] args) {
         
+  /*
+        
         boolean bandera=true;
         
         do {            
@@ -94,6 +96,10 @@ public class AgendaObjetos {
                 System.out.println("Opción no válida"); 
             }
         } while (bandera);
+*/
+  
+
+
     }
     
 }
