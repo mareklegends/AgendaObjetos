@@ -35,6 +35,9 @@ public class AgendaObjetos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        boolean bandera=true;
+        
         do {            
             switch(mostrarMenu()){
                 case 1:
@@ -74,13 +77,23 @@ public class AgendaObjetos {
                     
                     break;
                 case 3:
+                    System.out.println("3- Buscar contacto ================");
+                    
                     break;
                 case 4:
+                    System.out.println("4- Borarar contacto ================");
+                    
                     break;
-                case 5:
-                    break;
+                case 0:
+                System.out.println("No se como cerrar la aplicacion");
+                bandera=false;
+                break;
+                
+            default:
+            
+                System.out.println("Opción no válida"); 
             }
-        } while (true);
+        } while (bandera);
     }
     
 }
